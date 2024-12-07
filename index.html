@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowling Score Tracker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="app">
+        <div class="buttonContainer">
+            <button id="newGame" onclick=newGame()>New Game</button>
+            <button id="addPlayer">Add Player</button>
+        </div>
+        <table class="scoreContainer">
+            <thead>
+                <tr class="headings">
+                    <th>Names</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                </tr>
+            </thead>
+            <tbody id="playerRows"></tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
